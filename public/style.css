@@ -51,7 +51,7 @@ body{
 }
 .how:hover {
     box-shadow: 0px 10px 20px rgba(233, 31, 168, 0.5);
-    transform: scale(1.1); 
+    transform: scale(1.1);
 
 }
 .buttoncontainer {
@@ -63,16 +63,46 @@ body{
     display: grid;
     place-items: center;
     margin-top: 30px;
-    color:white; 
-    
+    color:white;
+
 }
 .making {
     display: grid;
     place-items: center;
     margin-top: 30px;
-    color:#f7f7f7; 
+    color:#f7f7f7;
 }
 .makingtext{
     margin-left: 30px;
     color:#f7f7f7;
+}
+.ths {
+        background: linear-gradient(0deg, rgba(34,153,195,1) 0%, rgba(45,253,100,1) 100%);
+        padding: 15px 32px;
+        text-align: center;
+        font-size: 16px;
+        border-radius: 15px;
+        color:white;
+        border:none;
+        cursor: pointer;
+        transition: box-shadow 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+.ths:hover {
+    box-shadow: 0px 10px 20px rgba(34,153,195,0.5);
+    transform: scale(1.1);
+}
+.amn {
+    background: linear-gradient(0deg, rgba(195,172,34,1) 0%, rgba(253,72,45,1) 100%);
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 15px;
+    color:white;
+    border:none;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+.amn:hover {
+box-shadow: 0px 10px 20px rgba(195,172,34,0.5);
+transform: scale(1.1);
 }

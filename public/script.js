@@ -11,4 +11,16 @@ window.onload = function() {
             location.href = "/index.html";
         };
     }
+    var thsButton = document.getElementById("ths");
+    if (thsButton) {
+        thsButton.onclick = function() {
+            location.href = "https://github.com/Marcotrix/marcothepucci-dev";
+        };
+    }
+    var amnButton = document.getElementById("amn");
+    if (amnButton) {
+        amnButton.onclick = function() {
+            location.href = "https://codeberg.org/copper256/avmon";
+        };
+    }
 };
