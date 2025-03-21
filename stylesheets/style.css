@@ -106,3 +106,12 @@ body{
 box-shadow: 0px 10px 20px rgba(195,172,34,0.5);
 transform: scale(1.1);
 }
+.footer {
+    display:grid;
+    place-items: center;
+    color:#777777;
+    background-color: #3d3f40;
+}
+a.footer {
+    color: #999999;
+    text-decoration: none;
