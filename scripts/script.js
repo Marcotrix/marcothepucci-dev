@@ -20,7 +20,7 @@ window.onload = function() {
     var amnButton = document.getElementById("amn");
     if (amnButton) {
         amnButton.onclick = function() {
-            location.href = "https://codeberg.org/copper256/avmon-web";
+            location.href = "https://github.com/Marcotrix/markmon";
         };
     }
 };
